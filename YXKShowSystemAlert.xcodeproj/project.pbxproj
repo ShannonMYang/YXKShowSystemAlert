@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B4351122200E111100F64C16 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4351121200E111100F64C16 /* AppDelegate.m */; };
+		B4351125200E111100F64C16 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4351124200E111100F64C16 /* ViewController.m */; };
+		B4351128200E111100F64C16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4351126200E111100F64C16 /* Main.storyboard */; };
+		B435112A200E111100F64C16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4351129200E111100F64C16 /* Assets.xcassets */; };
+		B435112D200E111100F64C16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B435112B200E111100F64C16 /* LaunchScreen.storyboard */; };
+		B4351130200E111100F64C16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B435112F200E111100F64C16 /* main.m */; };
+		B435113C200E113000F64C16 /* ShowAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = B4351137200E112F00F64C16 /* ShowAlert.m */; };
+		B435113D200E113000F64C16 /* UIFactoryButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B435113A200E113000F64C16 /* UIFactoryButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B435111D200E111100F64C16 /* YXKShowSystemAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YXKShowSystemAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4351120200E111100F64C16 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B4351121200E111100F64C16 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B4351123200E111100F64C16 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B4351124200E111100F64C16 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B4351127200E111100F64C16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B4351129200E111100F64C16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B435112C200E111100F64C16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B435112E200E111100F64C16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B435112F200E111100F64C16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B4351137200E112F00F64C16 /* ShowAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowAlert.m; sourceTree = "<group>"; };
+		B4351138200E112F00F64C16 /* ShowAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowAlert.h; sourceTree = "<group>"; };
+		B435113A200E113000F64C16 /* UIFactoryButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIFactoryButton.m; sourceTree = "<group>"; };
+		B435113B200E113000F64C16 /* UIFactoryButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIFactoryButton.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B435111A200E111100F64C16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4351114200E111100F64C16 = {
+			isa = PBXGroup;
+			children = (
+				B435111F200E111100F64C16 /* YXKShowSystemAlert */,
+				B435111E200E111100F64C16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B435111E200E111100F64C16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B435111D200E111100F64C16 /* YXKShowSystemAlert.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B435111F200E111100F64C16 /* YXKShowSystemAlert */ = {
+			isa = PBXGroup;
+			children = (
+				B4351120200E111100F64C16 /* AppDelegate.h */,
+				B4351121200E111100F64C16 /* AppDelegate.m */,
+				B4351123200E111100F64C16 /* ViewController.h */,
+				B4351124200E111100F64C16 /* ViewController.m */,
+				B4351136200E112F00F64C16 /* ShowAlert */,
+				B4351139200E113000F64C16 /* UIFactoryButton */,
+				B4351126200E111100F64C16 /* Main.storyboard */,
+				B4351129200E111100F64C16 /* Assets.xcassets */,
+				B435112B200E111100F64C16 /* LaunchScreen.storyboard */,
+				B435112E200E111100F64C16 /* Info.plist */,
+				B435112F200E111100F64C16 /* main.m */,
+			);
+			path = YXKShowSystemAlert;
+			sourceTree = "<group>";
+		};
+		B4351136200E112F00F64C16 /* ShowAlert */ = {
+			isa = PBXGroup;
+			children = (
+				B4351137200E112F00F64C16 /* ShowAlert.m */,
+				B4351138200E112F00F64C16 /* ShowAlert.h */,
+			);
+			path = ShowAlert;
+			sourceTree = "<group>";
+		};
+		B4351139200E113000F64C16 /* UIFactoryButton */ = {
+			isa = PBXGroup;
+			children = (
+				B435113A200E113000F64C16 /* UIFactoryButton.m */,
+				B435113B200E113000F64C16 /* UIFactoryButton.h */,
+			);
+			path = UIFactoryButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B435111C200E111100F64C16 /* YXKShowSystemAlert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4351133200E111100F64C16 /* Build configuration list for PBXNativeTarget "YXKShowSystemAlert" */;
+			buildPhases = (
+				B4351119200E111100F64C16 /* Sources */,
+				B435111A200E111100F64C16 /* Frameworks */,
+				B435111B200E111100F64C16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YXKShowSystemAlert;
+			productName = YXKShowSystemAlert;
+			productReference = B435111D200E111100F64C16 /* YXKShowSystemAlert.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4351115200E111100F64C16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Shannon MYang";
+				TargetAttributes = {
+					B435111C200E111100F64C16 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B4351118200E111100F64C16 /* Build configuration list for PBXProject "YXKShowSystemAlert" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B4351114200E111100F64C16;
+			productRefGroup = B435111E200E111100F64C16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B435111C200E111100F64C16 /* YXKShowSystemAlert */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B435111B200E111100F64C16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B435112D200E111100F64C16 /* LaunchScreen.storyboard in Resources */,
+				B435112A200E111100F64C16 /* Assets.xcassets in Resources */,
+				B4351128200E111100F64C16 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4351119200E111100F64C16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4351125200E111100F64C16 /* ViewController.m in Sources */,
+				B4351130200E111100F64C16 /* main.m in Sources */,
+				B435113D200E113000F64C16 /* UIFactoryButton.m in Sources */,
+				B4351122200E111100F64C16 /* AppDelegate.m in Sources */,
+				B435113C200E113000F64C16 /* ShowAlert.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B4351126200E111100F64C16 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4351127200E111100F64C16 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B435112B200E111100F64C16 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B435112C200E111100F64C16 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B4351131200E111100F64C16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B4351132200E111100F64C16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4351134200E111100F64C16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DWL9P66X9Z;
+				INFOPLIST_FILE = YXKShowSystemAlert/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.shannonmyang.YXKShowSystemAlert;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B4351135200E111100F64C16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DWL9P66X9Z;
+				INFOPLIST_FILE = YXKShowSystemAlert/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.shannonmyang.YXKShowSystemAlert;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4351118200E111100F64C16 /* Build configuration list for PBXProject "YXKShowSystemAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4351131200E111100F64C16 /* Debug */,
+				B4351132200E111100F64C16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4351133200E111100F64C16 /* Build configuration list for PBXNativeTarget "YXKShowSystemAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4351134200E111100F64C16 /* Debug */,
+				B4351135200E111100F64C16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4351115200E111100F64C16 /* Project object */;
+}
