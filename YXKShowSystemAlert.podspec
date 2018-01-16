@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint YXKShowSystemAlert.podspec.podspec' to ensure this is a
+#  Be sure to run `pod spec lint YXKShowSystemAlert.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "YXKShowSystemAlert.podspec"
+  s.name         = "YXKShowSystemAlert"
   s.version      = "0.0.1"
   s.summary      = "一个可以一句话调用的系统封装Alert."
 
@@ -63,9 +63,10 @@ Pod::Spec.new do |s|
   #  If this Pod runs only on iOS or OS X, then specify the platform and
   #  the deployment target. You can optionally include the target after the platform.
   #
-  s.platform     = :ios, "8.0"
+
   # s.platform     = :ios
   # s.platform     = :ios, "5.0"
+  s.platform     = :ios, "8.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -93,7 +94,6 @@ Pod::Spec.new do |s|
 
   s.source_files  = "YXKShowSystemAlert", "YXKShowSystemAlert/**/*.{h,m}"
   s.frameworks = 'UIKit', 'Foundation'
-  # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
