@@ -1,12 +1,20 @@
+
+
 # YXKShowSystemAlert
+
 一句话调用的，封装的系统的弹窗提示。
 
-# 实现弹窗提示的方法调用如下：
+##### 安装
 
-##### 首先，将```PopUpTips```这个文件夹里的.h、.m文件拖到你的工程里。
-##### 然后，在你需要用到弹窗提示的地方引入该头文件。
+1. 在 Podfile 中添加 `pod 'YXKShowSystemAlert'`。
+2. 执行 `pod install` 或 `pod update`。
+3. 导入 `ShowAlert.h`。
+
+#### 实现弹窗提示的方法调用如下：
+
+##### 在你需要用到弹窗提示的地方引入该头文件。
 ```objective-c
-#import "CECDataAlert.h"
+#import "ShowAlert.h"
 ```
 
 ###### 1.短暂的弹窗提示。
@@ -37,6 +45,23 @@
                                          }];
 ```
 
+###### 4. 拍照、上传照片、取消 弹窗提示。
+
+```objective-c
+[ShowAlert showClickUserHeadImage:@"说点什么" titleMessage:@"提示" cancleBlock:^{
+            // Do Something
+            // Do Nothing
+        } takePhotoBlock:^{
+            // Do Something
+            // Do Nothing
+        } clickPhotoBlock:^{
+            // Do Something
+            // Do Nothing
+        }];
+```
+
+
+
 ***
 
 # 按钮的创建方法调用如下：
@@ -44,33 +69,26 @@
 ##### 首先，将```CustomBtn```这个文件夹里的.h、.m文件拖到你的工程里。
 ##### 然后，在需要创建按钮的地方，引入该头文件
 ```objective-c
-#import "CECDataCustomButton.h"
-```
-##### 因为，此处还用了Masonry布局。请用Cocoapods自行导入该库。
-##### 引入头文件，使Masonry生效。
-```objective-c
-#import "Masonry.h"
+#import "UIFactoryButton.h"
 ```
 ###### 创建按钮示例：
 ```objective-c
-    CECDataCustomButton *firstBtn = [CECDataCustomButton createCECDataCustomBtn];
-    firstBtn.layer.cornerRadius = 5.f;
-    firstBtn.clipsToBounds = YES;
-    firstBtn.backgroundColor = [UIColor blackColor];
-    [firstBtn setTitle:@"第①个按钮" forState:UIControlStateNormal];
-    [self.view addSubview:firstBtn];  //添加到视图
-    //利用Masonry布局
-    [firstBtn mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.centerX.equalTo(self.view);
-        make.top.equalTo(self.view).offset(90);
-        make.height.offset(56);
-        make.width.offset(211);
+UIFactoryButton *firstButton = [UIFactoryButton createUIFactoryButton];
+firstButton.frame = CGRectMake((self.view.frame.size.width - 150) / 2, 300, 150, 45);
+firstButton.layer.cornerRadius = 5.f;
+firstButton.clipsToBounds = YES;
+firstButton.backgroundColor = [UIColor blackColor];
+[firstButton setTitle:@"第一个按钮" forState:UIControlStateNormal];
+firstButton.UIFactoryButtonClickBlock = ^(UIFactoryButton *btn) {
+[ShowAlert showConfirmAndCancleAlertView:@"这是一个取消和确定并存的弹窗提示" titleMessage:@"提示" tureBlock:^{
+            // Do Something
+            // Do Nothing
+        } falseBlock:^{
+            // Do Something
+            // Do Nothing
     }];
-    //按钮点击方法
-    firstBtn.CECDataCustomButtonClickBlock = ^(CECDataCustomButton *btn) {
-        [CECDataAlert showTipsForALittleTime:@"这个是短暂的弹窗提示"
-                                titleMessage:@"短暂弹窗提示"];
-    };
+};
+[self.view addSubview:firstButton];
 ```
 
 ***
