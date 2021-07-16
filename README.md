@@ -22,6 +22,7 @@
 [CECDataAlert showTipsForALittleTime:@"这个是短暂的弹窗提示"
                                 titleMessage:@"短暂弹窗提示"];
 ```
+![Snipaste_2021-07-16_11-16-45](https://user-images.githubusercontent.com/26617667/125886463-32636deb-b684-47e8-85ff-cbd5053834e7.png)
 
 
 ###### 2.仅有确定按钮的弹窗提示。
@@ -32,6 +33,8 @@
                                      NSLog("点击了唯一的确定。");
                                  }];
 ```
+![Snipaste_2021-07-16_11-16-13](https://user-images.githubusercontent.com/26617667/125886495-6c97b3ce-7f7e-4f8c-9f6c-0dca5c36e4c3.png)
+
 
 ###### 3.既有确定，又有取消按钮的弹窗提示。
 ```objective-c
@@ -44,6 +47,8 @@
                                              NSLog("点击了取消。");
                                          }];
 ```
+![Snipaste_2021-07-16_11-16-21](https://user-images.githubusercontent.com/26617667/125886481-39cfe4e1-e8eb-4b62-b83b-ec30c046911e.png)
+
 
 ###### 4. 拍照、上传照片、取消 弹窗提示。
 
@@ -59,7 +64,7 @@
             // Do Nothing
         }];
 ```
-
+![Snipaste_2021-07-16_11-16-27](https://user-images.githubusercontent.com/26617667/125886513-8567b2b6-435e-41b2-830c-5c48fa8d2367.png)
 
 
 ***
